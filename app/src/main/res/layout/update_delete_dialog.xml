@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_5sdp"
+    android:paddingRight="@dimen/_8sdp"
+    android:paddingTop="@dimen/_8sdp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp">
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/lbl_new_note_title"
+        android:textColor="@color/navyBlue"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/small_pencil"
+        android:drawablePadding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/hint_enter_note"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="4"
+        android:textColorHint="@color/medium_grey"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginTop="@dimen/_7sdp"/>
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CANCEL"
+                android:textColor="@color/navyBlue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_18sdp"/>
+
+            <TextView
+                android:id="@+id/tv_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SAVE"
+                android:textColor="@color/navyBlue"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_5sdp"/>
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/navyBlue</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="AppTheme.PopupOverlay">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/navyBlue</item>
+    </style>
+
+    <style name="App_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarItemBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="ButtonStyleNavy">
+        <item name="android:background">@drawable/bg_rounded_navy</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonStyleGrey">
+        <item name="android:background">@drawable/bg_rounded_grey</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

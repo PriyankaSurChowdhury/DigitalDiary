@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingBottom="@dimen/_10sdp"
+    android:paddingLeft="@dimen/_5sdp"
+    android:paddingRight="@dimen/_5sdp"
+    android:paddingTop="@dimen/_10sdp">
+
+    <!--<TextView
+        android:id="@+id/dot"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_15sdp" />-->
+
+    <!--<ImageView
+        android:id="@+id/dott"
+        android:layout_width="@dimen/_6sdp"
+        android:layout_height="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/bg_circle_navy"
+        android:layout_margin="@dimen/_3sdp" />-->
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/timestamp"
+        android:textSize="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_12sdp"/>
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timestamp"
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/_12sdp"
+        android:drawableLeft="@drawable/bg_circle_navy"
+        android:drawablePadding="@dimen/_7sdp"
+        android:layout_marginBottom="@dimen/_5sdp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/navyBlue"
+        android:layout_below="@id/note"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+</RelativeLayout>
